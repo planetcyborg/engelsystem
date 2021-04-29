@@ -126,6 +126,14 @@ return [
         '1'  => 'Engelsystem dark',
     ],
 
+    'theme_info' => [
+        '1' => [
+            'navbar'        => 'dark',
+            'navbar_bg'     => 'black',
+            'navbar_border' => 'dark',
+        ],
+    ],
+
     // Redirect to this site after logging in or when pressing the top-left button
     // Must be one of news, meetings, user_shifts, angeltypes, questions
     'home_site'               => env('HOME_SITE', 'news'),
